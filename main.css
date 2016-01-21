@@ -1,0 +1,59 @@
+ul {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 1.25em;
+}
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+article p {
+  max-width: 40%;
+  margin: 2.5%;
+}
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+  float: left;
+}
+
+.profile {
+  float: right;
+}
+
+ul li img {
+  max-width: 40%;
+  max-height: 40%;
+  float: left;
+  margin: 2.5%
+}
+
+.border {
+  border-bottom: 1px solid black;
+}
+footer p {
+  text-align: center;
+  font-size: .5em;
+  margin-top: 500px;
+}
+.right {
+  float: right;
+  max-width: 75%;
+  max-height: 75%;
+}
+
+nav {
+  padding-top: 10px;
+  position: fixed;
+  top: -20px;
+  left: -1px;
+  background-color: red;
+  width: 100%;
+  text-align: center;
+}
+body {
+  position: absolute;
+  top: 30px;
+}
